@@ -1,0 +1,26 @@
+{
+  "name": "vite-poc-customers",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-tsc --noEmit && vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "serve:standalone": "vue-cli-service serve --mode standalone"
+  },
+  "dependencies": {
+    "@stweedie/component-library-poc": "../vite-poc-component-library/stweedie-component-library-poc-v1.0.0.tgz",
+    "bootstrap": "5",
+    "single-spa-vue": "^2.1.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "sass": "^1.49.8",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vue-cli-plugin-single-spa": "~3.2.0",
+    "vue-tsc": "^0.29.8"
+  }
+}

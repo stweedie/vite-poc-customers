@@ -3,12 +3,8 @@
 ## Initial setup
 1. Clone [POC Component Library](https://github.com/stweedie/vite-poc-component-library)
 2. Follow build steps
-3. ```bash
-yarn add path/to/stweedie-component-library-poc-v1.0.0.tgz
-```
-4. ```bash
-yarn dev
-```
+3. ```yarn add path/to/stweedie-component-library-poc-v1.0.0.tgz```
+4. ```yarn dev```
 
 ## Recommended IDE Setup
 
